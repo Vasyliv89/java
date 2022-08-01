@@ -87,15 +87,16 @@ console.log(person)
 let a = 100;
 console.log(typeof a)
 let b = '100';
-console.log(typeof'100')
+console.log(typeof'b')
 let c = true;
-console.log(typeof 'true')
+console.log(typeof 'c')
 
 
-console.log(prompt(srt2))
-
-console.log(prompt(srt3))
-
-console.log(promt("33"))
+let name = prompt('enter name')
+let middlename = prompt('enter middlname')
+let eght= +prompt('33')
+console.log(name)
+console.log(middlename)
+console.log(eght)
 
 
