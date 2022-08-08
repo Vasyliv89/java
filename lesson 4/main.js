@@ -23,8 +23,8 @@
 // let i=0
 // while (i<20)
 // {
-//   // document.write(`<div>alex ${i}</div>`);
-//   // i++;
+//    document.write(`<div>alex ${i}</div>`);
+//    i++;
 // }
 //
 //
