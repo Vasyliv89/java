@@ -172,34 +172,34 @@
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 //   За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //   Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
-class cindirela{
-    constructor(name,age,footsize){
-      this.name = name;
-      this.age = age;
-      this.footsiza = footsize;
-    }
-}
-let cindirela1 =  new cindirela(`kate`,33,37)
-let cindirela2 =  new cindirela(`kate`,33,36)
-let cindirela3 =  new cindirela(`kate`,33,35)
-let cindirela4 =  new cindirela(`Ania`,22,34)
-let cindirela5 =  new cindirela(`kate`,33,38)
-
-let array = [cindirela1,cindirela2,cindirela3,cindirela4,cindirela5];
-
-class Prince extends cindirela{
-  constructor(name,age,findFootSize) {
-    super(name,age);
-    this.findFootSize = findFootSize
-  }
-}
-let prince = new Prince(`Petr`,22,34);
-
-let find = (array,prince)=> {
-  for (const item of array) {
-    if (prince.findFootSize === item.footsiza) {
-      return `my Cinderella is${item.name}`
-    }
-  }
-}
-console.log(find(array,Prince))
+// class cindirela{
+//     constructor(name,age,footsize){
+//       this.name = name;
+//       this.age = age;
+//       this.footsiza = footsize;
+//     }
+// }
+// let cindirela1 =  new cindirela(`kate`,33,37)
+// let cindirela2 =  new cindirela(`kate`,33,36)
+// let cindirela3 =  new cindirela(`kate`,33,35)
+// let cindirela4 =  new cindirela(`Ania`,22,34)
+// let cindirela5 =  new cindirela(`kate`,33,38)
+//
+// let array = [cindirela1,cindirela2,cindirela3,cindirela4,cindirela5];
+//
+// class Prince extends cindirela{
+//   constructor(name,age,findFootSize) {
+//     super(name,age);
+//     this.findFootSize = findFootSize
+//   }
+// }
+// let prince = new Prince(`Petr`,22,34);
+//
+// let find = (array,prince)=> {
+//   for (const item of array) {
+//     if (prince.findFootSize === item.footsiza) {
+//       return `my Cinderella is${item.name}`
+//     }
+//   }
+// }
+// console.log(find(array,Prince))
